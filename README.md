@@ -8,3 +8,4 @@ Run the following code with parameters specificied in the following order:
 ```
 sbatch RmDup_FASTA.sh input.fasta output.fasta 100
 ```
+Note that if Sequence A is contained within Sequence B in the same input FASTA, Sequence B will be kept while Sequence A will be removed.
